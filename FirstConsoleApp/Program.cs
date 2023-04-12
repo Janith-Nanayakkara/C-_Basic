@@ -39,9 +39,17 @@ public class Program
         apples--;
         apples--;
         Console.WriteLine(apples);
-      //  int x = 10;
-      //  Console.WriteLine(x--);
-        int x = 10;
-        Console.WriteLine(--x);
+        //  int x = 10;
+        //  Console.WriteLine(x--);
+        //  int x = 10;
+        //Console.WriteLine(--x);
+        /* int x = 15;
+         x++;
+         x = x - 2;
+         Console.WriteLine(x);*/
+        int x = 8;
+        x++;
+        x /= 3;
+        Console.WriteLine(x);
     }
 }
